@@ -10,8 +10,7 @@ name: Build OTA
 
 on:
   push
-watch:
-    types: [started]
+
 env:
   FEEDS_CONF: feeds.conf.default
   DIY_P1_SH: diy-part1.sh
